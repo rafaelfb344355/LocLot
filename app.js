@@ -117,6 +117,10 @@ app.delete("/tags/:id", async (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.send('API Server is running');
+});
+
 // Iniciar o servidor
 app.listen(Port, () => {
   console.log(`Servidor escutando na porta ${Port}`);
