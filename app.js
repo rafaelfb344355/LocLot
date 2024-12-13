@@ -5,8 +5,8 @@ const mongoose = require("mongoose");
 
 
 // Configurações do MongoDB
-const usuario = process.env.USUARIO;
-const senha = process.env.SENHA;
+const username = process.env.USUARIO;
+const password = process.env.SENHA;
 const nomeBancoDados = "LotsCaixas";
 
 // Inicializar o app
