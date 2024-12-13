@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "RFB",
@@ -12,8 +13,9 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.3",
-    "cros": "^1.0.1",
+    "cors": "^1.0.1",
     "express": "^4.21.2",
+    "mongodb": "^6.12.0",
     "mongoose": "^8.8.4"
   }
 }

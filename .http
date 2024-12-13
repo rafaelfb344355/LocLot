@@ -1,0 +1,4 @@
+### Testar criação de tags
+GET  http://localhost:3001/tags
+Content-Type: application/json
+
